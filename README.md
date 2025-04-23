@@ -104,7 +104,7 @@ Si tienes preguntas, puedes contactar al soporte desde el portal de Azure o cons
 En este apartado encontraras todo lo relacionado con mi actividad de sistemas distribuidos:
 
 - [Tutorial de despliegue](https://github.com/RoynerG/pokedex/blob/main/Despliegue.md)
-- [Seguridad de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Arquitecture.png)
+- [Seguridad de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Security.md)
 - [Arquitectura de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Arquitecture.png)
 
 ---
