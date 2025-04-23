@@ -1,13 +1,13 @@
-# 🚀 Guía Práctica: De Calificación C a A+ en Seguridad Web para Azure Static Apps
+# 🚀 Guía Práctica: De Calificación C a A en Seguridad Web para Azure Static Apps
 
-**Por:** Royner Guardi  
+**Por:** Royner Guardo
 **Fecha:** Abril 2025
 
 ---
 
 ## 📝 Introducción
 
-¡Hola compañeros! Si están leyendo esto es porque al igual que yo, sufrieron con los headers de seguridad en Azure. Después de 3 días de prueba y error (y mucho café), logré llevar mi aplicación de **calificación C a A+** en [SecurityHeaders.com](https://securityheaders.com). Aquí les comparto mi experiencia paso a paso.
+¡Hola compañeros! Si están leyendo esto es porque al igual que yo, sufrieron con los headers de seguridad en Azure. Después de 3 días de prueba y error (y mucho café), logré llevar mi aplicación de **calificación C a A** en [SecurityHeaders.com](https://securityheaders.com). Aquí les comparto mi experiencia paso a paso.
 
 ---
 
@@ -106,7 +106,7 @@ Refused to connect to 'https://api.externa.com'
 
 ## 🎯 Configuración Final Optimizada
 
-Después de 15 intentos, esta fue la configuración que me dio **A+**:
+Después de 15 intentos, esta fue la configuración que me dio **A**:
 
 ```json
 {
@@ -145,7 +145,7 @@ Antes de entregar el proyecto:
 
 ## 🎓 Conclusión
 
-Llevar mi aplicación de C a A+ fue un proceso de mucho ensayo y error, pero valió la pena.  
+Llevar mi aplicación de C a A fue un proceso de mucho ensayo y error, pero valió la pena.  
 Espero que esta guía les ahorre tiempo a ustedes. ¡Nos vemos en clases!
 
 **PD:** Si tienen dudas, me encuentran en el laboratorio de computación los jueves por la tarde.  
