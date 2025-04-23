@@ -1,9 +1,11 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "...",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com; font-src 'self'; connect-src 'self' https://beta.pokeapi.co https://pokeapi.co; frame-src 'none'; object-src 'none'; media-src 'self' https://assets.pokemon.com",
     "X-Frame-Options": "SAMEORIGIN",
     "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
-    "Cross-Origin-Embedder-Policy": "require-corp",
-    "Cross-Origin-Opener-Policy": "same-origin"
+    "Cross-Origin-Embedder-Policy": "unsafe-none",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
   }
 }
