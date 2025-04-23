@@ -1,25 +1,57 @@
-# Despliegue en Azure ☁
+# 🚀 **Despliegue en Azure con Angular**
 
-1.  Se prepara el proyecto de trabajo en Angular
+---
 
-- Se instalan las dependencias del proyecto: **npm install**
-- Se verifica que funcione correctamente en local: **npm start**
-- Se crea la carpeta de despliegue usando el comando: **npm run build**
+## 🔧 **1. Preparar el proyecto Angular**
 
-2. Creamos un **Static Web Apps** desde **Microsoft Azure**
-3. Se coloca el nombre de la **Static Web App**: pokedex-roy
-4. Se escoge el plan **Free: For hobby or personal projects**
-5. Se coloca como recurso **GitHub**
-6. En **Build Presets** se escoge **Angular**
-7. En App location se ingresa la ruta donde esta la aplicacion que en mi caso fue la construida con el comando **npm run build**: **/pokedex-angular**
-8. Hacemos clic en el boton de **review & create** para que todo este correcto
-9. Luego de ver que todo este correcto hacemos clic en el botón crear para desplegar el proyecto
-10. Nos saldra una pantalla donde dirá que **Your deployment is complete** esto significará que el despligue de nuestra pokedex con Angular fue exitosa.
-11. Revisamos que nuestra aplicación cargue y con esto concluimos todo.
-12. Ingresamos nuestra aplicacion en scanner de seguridad para ver como esta en esos terminos y nos encontramos que no esta totalmente segura 😭.
+- Instalar dependencias:
+  ```
+  npm install
+  ```
+- Ejecutar en local:
+  ```
+  npm start
+  ```
+- Generar carpeta de producción:
+  ```
+  npm run build
+  ```
 
-# Seguridad de nuestra aplicacion 🔐
+---
 
-Este tutorial sencillo se los estaré explicando en mi otro archivo **Security.md**. Les invito a leer porque es muy importante en nuestros sitios para poder detectar y minimizar ataques de piratas. 💙
+## ☁️ **2. Crear Static Web App en Azure**
 
+1. Accede al portal de **Azure**.
+2. Busca **Static Web Apps** y crea una nueva.
+3. Configura lo siguiente:
+   - **Nombre:** `pokedex-roy`
+   - **Plan:** Free (para proyectos personales)
+   - **Origen del código:** GitHub
+4. En **Build Presets**, selecciona `Angular`.
+5. En **App location**, escribe:
+   ```
+   /
+   ```
+6. Haz clic en **Review & Create**.
+7. Si todo está correcto, presiona **Create**.
 
+---
+
+## ✅ **3. Verificar el despliegue**
+
+- Verás el mensaje:
+  > `Your deployment is complete` 🎉
+- Abre la URL generada y valida que tu app funcione correctamente.
+
+---
+
+## 🔐 **4. Escanear la seguridad**
+
+- Realiza un análisis de seguridad web.
+- Resultado actual: 😭 No está completamente segura.
+
+> 💡 Consulta el archivo [`Security.md`](./Security.md) donde colocare el tutorial que hice para la seguridad de mi aplicacion💙
+
+---
+
+🎉 ¡Listo! Tu **Pokedex Angular** ya está desplegada con éxito en **Azure**.

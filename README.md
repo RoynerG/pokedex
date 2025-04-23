@@ -99,5 +99,15 @@ Si tienes preguntas, puedes contactar al soporte desde el portal de Azure o cons
 
 ---
 
+## 💬 Informacion adicional
+
+En este apartado encontraras todo lo relacionado con mi actividad de sistemas distribuidos:
+
+- [Tutorial de despliegue](https://github.com/RoynerG/pokedex/blob/main/Despliegue.md)
+- [Seguridad de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Arquitecture.png)
+- [Arquitectura de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Arquitecture.png)
+
+---
+
 **Autor:** Roy  
 **Fecha:** Abril 2025
