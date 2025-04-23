@@ -109,5 +109,5 @@ En este apartado encontraras todo lo relacionado con mi actividad de sistemas di
 
 ---
 
-**Autor:** Roy  
+**Autor:** Royner Guardo 
 **Fecha:** Abril 2025
