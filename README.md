@@ -107,6 +107,8 @@ En este apartado encontraras todo lo relacionado con mi actividad de sistemas di
 - [Seguridad de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Security.md)
 - [Arquitectura de mi aplicacion](https://github.com/RoynerG/pokedex/blob/main/Arquitecture.png)
 - [Evidencia de mi actividad](https://github.com/RoynerG/pokedex/blob/main/evidence.pdf)
+- [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=brave-hill-0f449fd1e.6.azurestaticapps.net)
+- [Evidencia de SSL Labs](https://github.com/RoynerG/pokedex/blob/main/SSL%20Server%20Test_%20brave-hill-0f449fd1e.6.azurestaticapps.net%20(Powered%20by%20Qualys%20SSL%20Labs).pdf)
 
 ---
 
