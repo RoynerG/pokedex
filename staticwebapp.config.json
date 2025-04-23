@@ -1,11 +1,13 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com; font-src 'self'; connect-src 'self' https://beta.pokeapi.co https://pokeapi.co; frame-src 'none'; object-src 'none'; media-src 'self' https://assets.pokemon.com",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https://*.pokemon.com https://raw.githubusercontent.com; connect-src 'self' https://beta.pokeapi.co https://pokeapi.co https://www.google-analytics.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'",
     "X-Frame-Options": "SAMEORIGIN",
-    "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
+    "X-Content-Type-Options": "nosniff",
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=(), payment=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
     "Cross-Origin-Embedder-Policy": "unsafe-none",
-    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Opener-Policy": "same-origin",
     "Cross-Origin-Resource-Policy": "cross-origin",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
   }
 }
